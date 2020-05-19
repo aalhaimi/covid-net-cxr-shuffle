@@ -5,6 +5,7 @@ This is an open-source DL-based classification model that tries to identify pati
 --
 Key points on COVIDNet-CXR-Shuffle network
 --
+
 1. The architecture was adapted from [ShuffleNet v2](https://arxiv.org/abs/1807.11164)
 2. Designed with efficiency in mind to allow *near real-time screening* with mobile devices
 3. Experimented with *transfer learning* and *data augmentation* techniques to improve generalizability and robustness
@@ -15,6 +16,7 @@ Key points on COVIDNet-CXR-Shuffle network
 
 Project structure
 --
+
 - `data` directory contains 3 important scripts:
     - `create-db.py` is a slightly modified verion of the original instructions that was used to get the main `train` and `test` datafolders. Make sure you do this first.
     - `create-trainsets.py` is uesed to create the `trainset` which includes `trn` and `val` subfolders with images arranged by class. There is code that can be used to get a balanced version of the data that you can later on pass directly to an augmentation method. 
@@ -30,6 +32,7 @@ Project structure
 
 Performance metrics and benchmarks
 --
+
 - covidnet-cxr-shuffle-e18
 <img src="reports/cm_model_e18.png">
 - covidnet-cxr-shuffle-e35 
