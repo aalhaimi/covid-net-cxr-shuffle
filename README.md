@@ -2,7 +2,7 @@
 This is an open-source DL-based classification model that tries to identify patients with COVID-19 viral infection, non-COVID-19 infection, and those with no infection with high accuracy by analyzing their chest x-ray scans. This project is part of [COVID-Net](https://github.com/lindawangg/COVID-Net) open source initiative. This is a prototype model, not intended to be used yet in production. You can reach out to me directly on [LinedIn](https://www.linkedin.com/in/aalhaimi1/) if you have questions about this model or want help to getting it used as an experimental tool for COVID-19 near real-time screening.
 
 <img src="reports/covid-19-explainability-exmaple.png" style="display: block; margin-left: auto; margin-right: auto; width: 100%;">
---
+
 Key points on COVIDNet-CXR-Shuffle network
 --
 
